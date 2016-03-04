@@ -86,6 +86,18 @@ function FindProxyForURL(url, host)
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.libgen.org")) {
     return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.live.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.akamaihd.net")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.1drv.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.skype.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.janestreet.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.webtype.com")) {
+    return "SOCKS5 localhost:1080";
   }
 
   return "DIRECT";
