@@ -74,6 +74,18 @@ function FindProxyForURL(url, host)
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.gravatar.com")) {
     return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.aolcdn.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.skimresources.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.taboola.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.truoptik.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.libgen.info")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.libgen.org")) {
+    return "SOCKS5 localhost:1080";
   }
 
   return "DIRECT";
