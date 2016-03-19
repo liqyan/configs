@@ -6,6 +6,10 @@ function FindProxyForURL(url, host)
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.google-analytics.com")) {
     return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.googleapis.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.google.com")) {
+    return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.typekit.net")) {
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.techcrunch.com")) {
@@ -58,11 +62,11 @@ function FindProxyForURL(url, host)
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.githubusercontent.com")) {
     return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "gist.github.com")) {
+    return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "babeljs.io")) {
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.cloudflare.com")) {
-    return "SOCKS5 localhost:1080";
-  } else if (shExpMatch(host, "*.mozilla.org")) {
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "duckduckgo.com")) {
     return "SOCKS5 localhost:1080";
@@ -97,6 +101,16 @@ function FindProxyForURL(url, host)
   } else if (shExpMatch(host, "*.janestreet.com")) {
     return "SOCKS5 localhost:1080";
   } else if (shExpMatch(host, "*.webtype.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.friendfeed-media.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.jacquesmattheij.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.vimeo.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.yam.com")) {
+    return "SOCKS5 localhost:1080";
+  } else if (shExpMatch(host, "*.discuss.com.hk")) {
     return "SOCKS5 localhost:1080";
   }
 
